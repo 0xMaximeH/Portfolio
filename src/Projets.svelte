@@ -12,15 +12,15 @@
         <div class="slider">
 
             <ul class="projects">
-                <li class="project" style='background-image: url("src/assets/projects/Movies.jpg");'>
+                <li class="project" style='background-image: url("public/projects/Movies.jpg");'>
                     
                 </li>
 
-                <li class="project" style='background-image: url("src/assets/projects/Portfolio.jpg");'>
+                <li class="project" style='background-image: url("public/projects/Portfolio.jpg");'>
                     
                 </li>
 
-                <li class="project" style='background-image: url("src/assets/projects/Skill.jpg");'>
+                <li class="project" style='background-image: url("public/projects/Skill.jpg");'>
 
                 </li>
 
@@ -82,7 +82,7 @@
         display: flex;
         min-width: 40vh;
         height: 100%;
-        background-image: url("src/assets/Portfolio.PNG");
+        background-image: url("public/Portfolio.PNG");
         background-size: cover;
         background-position: 25%;
         border: none;

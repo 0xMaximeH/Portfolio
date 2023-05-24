@@ -11,7 +11,7 @@
     <h1> Ox<span class="orange">Maxime</span> </h1>
     <nav>
       <ul>
-        <li> <a href="#about"> <button style:--color={'#365669'} on:click={() => selectedTab = AboutMe}> About </button></a> </li>
+        <li> <button style:--color={'#365669'} on:click={() => selectedTab = AboutMe}> About </button></li>
         <li> <button style:--color={'#9c2436'} on:click={() => selectedTab = Films}> Movies </button> </li>
         <li> <button style:--color={'#163d76'} on:click={() => selectedTab = Projets}> Projets </button> </li>
       </ul>
