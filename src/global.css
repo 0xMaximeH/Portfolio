@@ -1,0 +1,51 @@
+main {
+
+    font-family: "Georgia";
+    margin: 0;
+    padding: 0;
+    
+  /* Remplir le background avec le film */
+  /* background-color: #14181c; 20373f
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: 100%;
+    border: 40px;
+    justify-content: center;
+  */ 
+}
+body {
+    margin: 0;
+    width: 100%;
+    color: #061c23; /* 3a3a3a */
+    background-color: #f3f3f5; 
+}
+
+.day-night {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: .3;
+}
+
+section{
+  height: 100vh;
+}
+
+section:first-of-type{
+  height: 90vh;
+}
+
+.orange {
+  color: #fd6e30;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
