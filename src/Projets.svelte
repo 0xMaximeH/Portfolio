@@ -12,15 +12,15 @@
         <div class="slider">
 
             <ul class="projects">
-                <li class="project" style='background-image: url("public/projects/Movies.jpg");'>
+                <li class="project" style='background-image: url("projects/Movies.jpg");'>
                     
                 </li>
 
-                <li class="project" style='background-image: url("public/projects/Portfolio.jpg");'>
+                <li class="project" style='background-image: url("projects/Portfolio.jpg");'>
                     
                 </li>
 
-                <li class="project" style='background-image: url("public/projects/Skill.jpg");'>
+                <li class="project" style='background-image: url("projects/Skill.jpg");'>
 
                 </li>
 

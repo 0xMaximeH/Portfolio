@@ -47,7 +47,7 @@
                 {#if isInViewSkill}
                 <div class="skill" in:scale="{{delay:100}}">
                     <div class="skill-title">
-                        <img class="logo" alt="Svelte logo" src="public/skills/Svelte.svg"/>
+                        <img class="logo" alt="Svelte logo" src="skills/Svelte.svg"/>
                         <h4> Front-End </h4>
                     </div>
                     <p> HTML / CSS / JS 
@@ -59,7 +59,7 @@
 
                 <div class="skill" in:scale="{{delay:200}}">
                     <div class="skill-title">
-                        <img class="logo" alt="Git logo" src="public\skills\Git.svg"/>
+                        <img class="logo" alt="Git logo" src="skills/Git.svg"/>
                         <h4> General </h4>
                     </div>
                     <p> UML / Git / Design pattern / Project management / API REST / French / </p>
@@ -67,7 +67,7 @@
 
                 <div class="skill" in:scale="{{delay:300}}"> 
                     <div class="skill-title">
-                        <img class="logo" alt="Symfony logo" src="public\skills\Symfony.svg"/>
+                        <img class="logo" alt="Symfony logo" src="skills/Symfony.svg"/>
                         <h4> Back-End </h4>
                     </div>
                     <p> PHP Symfony / C#.NET / ExpressJS / SQL
@@ -77,7 +77,7 @@
                 {/if}
             </div>
             <div id="skill-image" >
-                <img in:fade="{{delay:400}}" alt="arrivalBackground" id="skill-bg" src="public\ArrivalWomanWalking.webp"/>
+                <img in:fade="{{delay:400}}" alt="arrivalBackground" id="skill-bg" src="ArrivalWomanWalking.webp"/>
                 <div class="end-bg dark-bg">
 
                 </div>
@@ -282,7 +282,7 @@
     #wallpaper {    
         top: 35%;
         left: 0;
-        background-image: url("public/ArrivalDiscovery.jpg");
+        background-image: url("ArrivalDiscovery.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 0% 30%;
