@@ -282,7 +282,7 @@
     #wallpaper {    
         top: 35%;
         left: 0;
-        background-image: url("ArrivalDiscovery.jpg");
+        background-image: url("/ArrivalDiscovery.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 0% 30%;

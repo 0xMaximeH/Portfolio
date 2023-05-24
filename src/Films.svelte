@@ -4,11 +4,11 @@
   
 
     let cards = [
-    {genre:"THRILLER", font:"Joane Stencil Regular // Sensaway", shadowColor:"#163d76",color:"#fefffe", imageUrl:"public/movies//Burning.jpg"},
-    {genre:"SCI-FI", font:"'Lato', sans-serif", color:"#596871",shadowColor:"#7899b3", imageUrl:"public/movies/Arrival.jpg"},  
-    {genre:"HORROR", font:"kepler-std-semicondensed-dis, serif", shadowColor:"#9c2436",color:"#fbedda", imageUrl:"public/movies/Raw.jpg"},
-    {genre:"Drama", font:"Helvetica", color:"#f2f3ec",shadowColor:"#9d2324", imageUrl:"public/movies/Aftersun.jpg"},
-    {genre:"ACTION", font:"Arial", color:"#c9bd99 ",shadowColor:"#745e43", imageUrl:"public/movies/Madmax.jpg"}
+    {genre:"THRILLER", font:"Joane Stencil Regular // Sensaway", shadowColor:"#163d76",color:"#fefffe", imageUrl:"movies//Burning.jpg"},
+    {genre:"SCI-FI", font:"'Lato', sans-serif", color:"#596871",shadowColor:"#7899b3", imageUrl:"movies/Arrival.jpg"},  
+    {genre:"HORROR", font:"kepler-std-semicondensed-dis, serif", shadowColor:"#9c2436",color:"#fbedda", imageUrl:"movies/Raw.jpg"},
+    {genre:"Drama", font:"Helvetica", color:"#f2f3ec",shadowColor:"#9d2324", imageUrl:"movies/Aftersun.jpg"},
+    {genre:"ACTION", font:"Arial", color:"#c9bd99 ",shadowColor:"#745e43", imageUrl:"movies/Madmax.jpg"}
   ]
 </script>
 
