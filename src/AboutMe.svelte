@@ -61,7 +61,7 @@
                         <img class="logo" alt="Git logo" src="skills/Git.svg"/>
                         <h4> General </h4>
                     </div>
-                    <p> UML / Git / Design pattern / Project management / API REST / French / </p>
+                    <p> UML / Git / Design pattern / Project management / API REST / French </p>
                 </div>
 
                 <div class="skill" in:scale="{{delay:300}}"> 

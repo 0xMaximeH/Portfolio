@@ -1,5 +1,5 @@
 <script>
-    import Films from './Films.svelte';
+    import Films from './movies/Films.svelte';
     import Projets from './Projets.svelte';
     import AboutMe from './AboutMe.svelte';
 
@@ -55,10 +55,9 @@ button {
 
 a {
     text-decoration: none;
-    color: none;
 }
 a:visited {
-    color: none;
+    color: black;
 }
 
 button:hover {
