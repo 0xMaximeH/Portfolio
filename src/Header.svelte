@@ -59,7 +59,6 @@ button:hover {
 
 header {
   position: relative;
-  font-family: "Georgia";
 }
 
 .head {
@@ -84,7 +83,6 @@ header::after {
 h1 {
     font-size: 1.7rem;
     padding-left: 2rem;
-    font-family: "Georgia";
 }
 
 </style>
