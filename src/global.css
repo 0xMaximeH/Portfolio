@@ -1,5 +1,4 @@
 main {
-
     margin: 0;
     padding: 0;
     
@@ -30,22 +29,22 @@ body {
 }
 
 section{
-  height: 100vh;
+    height: 100vh;
 }
 
 section:first-of-type{
-  height: 90vh;
+    height: 90vh;
 }
 
 .orange {
-  color: #fd6e30;
+    color: #fd6e30;
 }
 
 h1, h2, h3, h4 {
-  text-align: center;
+    text-align: center;
 }
 
 h2 {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 

@@ -1,7 +1,6 @@
 <script>
     import { fly } from 'svelte/transition';
-    import MuxPlayer from './MuxPlayer.svelte';
-  
+    import MuxPlayer from './MuxPlayer.svelte';  
 
     let cards = [
     {genre:"THRILLER", font:"Joane Stencil Regular // Sensaway", shadowColor:"#163d76",color:"#fefffe", imageUrl:"movies//Burning.jpg"},

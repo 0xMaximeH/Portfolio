@@ -1,64 +1,78 @@
 <script>
-  import Films from './Films.svelte';
-  import Projets from './Projets.svelte';
-  import AboutMe from './AboutMe.svelte';
+    import Films from './Films.svelte';
+    import Projets from './Projets.svelte';
+    import AboutMe from './AboutMe.svelte';
 
-  export let selectedTab = AboutMe;
+    export let selectedTab = AboutMe;
 </script>
 
 <header>
-  <div class="head">
-    <h1> Ox<span class="orange">Maxime</span> </h1>
+    <div class="head">
+    <h1> 
+        <a on:click={() => selectedTab = AboutMe} href="/">
+            Ox<span class="orange">Maxime</span> 
+        </a>
+    </h1>
     <nav>
       <ul>
-        <li> <button style:--color={'#365669'} on:click={() => selectedTab = AboutMe}> About </button></li>
-        <li> <button style:--color={'#9c2436'} on:click={() => selectedTab = Films}> Movies </button> </li>
-        <li> <button style:--color={'#163d76'} on:click={() => selectedTab = Projets}> Projets </button> </li>
+        <li> 
+            <button style:--color={'#365669'} on:click={() => selectedTab = AboutMe}> About </button>
+        </li>
+        <li> 
+            <button style:--color={'#9c2436'} on:click={() => selectedTab = Films}> Movies </button>
+        </li>
+        <li> 
+            <button style:--color={'#163d76'} on:click={() => selectedTab = Projets}> Projets </button>
+        </li>
       </ul>
     </nav>
   </div>
 </header>
 
 <style>
+    
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@600&display=swap');
 ul {
-  list-style: none;
-  display: flex;
-  gap: 1vw;
-  justify-content: flex-end;
-  padding-right: 2vw;
+    list-style: none;
+    display: flex;
+    gap: 1vw;
+    justify-content: flex-end;
+    padding-right: 2vw;
 }
 
 button {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  border: none;
-  font-family: "Georgia";
-  font-size: 1.25em;
-  font-weight: bold;
-  background-clip: text;
-  transition: background-color .3s ease-in-out;
-  -webkit-background-clip: text;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    font-family: "Georgia";
+    font-size: 1.25em;
+    font-weight: bold;
+    background-clip: text;
+    transition: background-color .3s ease-in-out;
+    -webkit-background-clip: text;
 }
 
 a {
     text-decoration: none;
     color: none;
 }
+a:visited {
+    color: none;
+}
 
 button:hover {
-  color: transparent;
-  background-color:var(--color);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-clip: text;
-  -webkit-background-clip: text;
+    color: transparent;
+    background-color:var(--color);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 header {
-  position: relative;
+    position: relative;
 }
 
 .head {
