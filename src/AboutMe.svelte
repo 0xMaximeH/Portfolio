@@ -19,7 +19,6 @@
                 <h1> <span>Hello, I am </span> <span class="orange"> Maxime</span>.</h1>
             </Typewriter>
             
-
             <p id="description" in:fade="{{delay: 600 }}"> 
                 I'm a Software Engineer from France.
             <br>
@@ -77,7 +76,7 @@
                 {/if}
             </div>
             <div id="skill-image" >
-                <img in:fade="{{delay:400}}" alt="arrivalBackground" id="skill-bg" src="ArrivalWomanWalking.webp"/>
+                <img in:fade="{{delay:600}}" alt="arrivalBackground" id="skill-bg" src="ArrivalWomanWalking.webp"/>
                 <div class="end-bg dark-bg">
 
                 </div>
