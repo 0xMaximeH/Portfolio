@@ -60,9 +60,6 @@ button:hover {
 header {
   position: relative;
   font-family: "Georgia";
-  
-  /*border-bottom: 0.063rem solid rgba(0,0,0,0.2);
-  background-color: #14181c; */
 }
 
 .head {

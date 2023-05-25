@@ -44,19 +44,6 @@ mux-player {
     --cast-button: none;
     --pip-button: none;
     --playback-rate-button: none;
-    /*
-    --time-range: none;
-    --time-display: none;
-    --live-button: none;
-    --fullscreen-button: none;
-    --volume-range: none;
-    --mute-button: none;
-    --captions-button: none;
-    --bottom-play-button: none;
-    aspect-ratio: 16 / 9; 
-    --media-object-fit: cover;
-    --media-object-position: center;
-    */
 }
 
 </style>

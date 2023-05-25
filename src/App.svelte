@@ -12,8 +12,6 @@
 
 </script>
 
-    <!-- <link rel="stylesheet" href="https://use.typekit.net/rbf8fzv.css">-->
-
     <Header bind:selectedTab/>
 
     <main>
@@ -21,9 +19,5 @@
     </main>
 
 <style>
-    /*
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.04),
-                    0px 15px 25px rgba(0, 0, 0, 0.3),
-                    0 0 0 2px var(--color);
-    */
+
 </style>

@@ -39,11 +39,9 @@
 
             </ul>
         </div>
-    </div>
-    
+    </div>    
     
 </div>
-
 
 <style>
     .slider {
