@@ -49,7 +49,7 @@
                         <img class="logo" alt="Svelte logo" src="skills/Svelte.svg"/>
                         <h4> Front-End </h4>
                     </div>
-                    <p> HTML / CSS / JS 
+                    <p> SASS / JS 
                         <br>
                         I develop most of the time with <strong>Svelte </strong> and  <strong>React</strong>. 
                         <br> Small experience with Angular.
@@ -296,7 +296,9 @@
         position: relative;
         height: 600px;
         max-width: 1200px;
-        margin: auto;       
+        margin: auto;
+        background-color: white;
+        z-index: 4;       
     }
 
     #jobs {
