@@ -1,30 +1,29 @@
 <script>
-    import MuxPlayer from '../MuxPlayer.svelte';  
+    import MuxPlayer from './MuxPlayer.svelte';  
     export let detail;
     export let movie;
-    console.log(movie);
-    console.log(detail);
+
+    import { fade } from "svelte/transition";
 </script>
 
-<div>
+<div in:fade="{{duration: 150 }}">
     <div on:click={() => { detail = false;console.log(detail)}} id="overlay"/>
 
-    <div class="container">
+    <div class="container" style:--bgcolor={movie.backgroundColor} >
         <div class="detail-img center">
             <div class="cardo"
                 
                 style:color={movie.color} 
                 style:background-image={"url("+movie.imageUrl+")"}
-                style:font-family={movie.font}
-                style:--color={movie.shadowColor}
+                style:font-family={movie.font}                
                 >
             </div> 
         </div>
         <div class="movie-detail"> 
             <p> <span class="label"> Title :</span> {movie.title} </p>
         
-            <p> <span class="label"> Film director :</span> {movie.director} Lee Chang-dong</p>
-            <p> <span class="label"> Genres :</span> Thriller </p>
+            <p> <span class="label"> Film director :</span> {movie.director} </p>
+            <p> <span class="label"> Genres :</span> {movie.genre} </p>
             <p> <span class="label"> Description :</span> </p>
             <p> {movie.description} </p>
             <span class="label"> Trailer: </span>
@@ -67,7 +66,7 @@
         min-width: 90vh;
         transform: translate(-50%, -50%);
         border: 1px solid #ffffff;
-        background-color: #192d4b;
+        background-color: var(--bgcolor);
         color: snow; 
         padding: 30px 0;
         border-radius: 15px;
