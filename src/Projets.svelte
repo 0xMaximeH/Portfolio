@@ -6,7 +6,20 @@
     <h2> Projects</h2>
     <div>
         <div class="title">
-            <h3>Portofolio </h3>
+            <h4>
+                Portfolio
+            </h4>
+           
+            <div class="center">
+                <div class="genres"
+                    style:--color='#ff3e00'>
+                    <span>Svelte</span>
+                </div>
+                <div class="genres"
+                    style:--color='#242628'>
+                    <span>Mux Player</span>
+                </div>
+            </div>
         </div>
         
         <div class="slider">
@@ -32,12 +45,8 @@
         <div class="title">
             <h3>WebOSTV App in construction </h3>
         </div>
-        
         <div class="slider">
-
-            <ul class="projects">
-
-            </ul>
+            <ul class="projects"></ul>
         </div>
     </div>    
     
@@ -55,8 +64,9 @@
         height: 30vh;
     }
 
-    h3 {
-        font-size: 2rem;
+    h4 {
+        font-size: 1.5rem;
+        margin: 1rem;
     }
 
     .projects {
@@ -99,4 +109,27 @@
         background: linear-gradient(rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.78) 80%)
     }
 
+
+    .genres {
+        display: inline-block;
+        text-align: start;
+        overflow: hidden;
+        font-family: "Segoe UI";
+        font-size: 16px;
+        border-radius: 4px;
+        margin: 5px;
+        border: 1px solid var(--color);
+        box-shadow: 2px 1px 10px rgba(255, 254, 254, 0.2);
+        background-color: var(--color);
+    }
+    
+    .genres > span {
+        display: block;
+        padding: 7px 15px;
+        width:100%;
+        font-weight: 500;
+        color: white;
+        user-select: none;
+    }
+    
 </style>
