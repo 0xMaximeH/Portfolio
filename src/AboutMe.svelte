@@ -297,8 +297,6 @@
         height: 600px;
         max-width: 1200px;
         margin: auto;
-        background-color: white;
-        z-index: 4;       
     }
 
     #jobs {
